@@ -16,7 +16,7 @@
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[CampusConnect is a smart college events notification platform that helps students discover, track, and register for campus events easily. Clubs can post events with posters and descriptions, while students get personalized feeds, reminders, and urgency alerts.]
 
 ### The Problem statement
 [What problem are you solving?]

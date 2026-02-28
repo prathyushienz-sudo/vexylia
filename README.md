@@ -2,15 +2,15 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [SMART EVENT NOTIFIER] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: []
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [AMNA HUDHA CP ] - [T K M COLLEGE OF ENGINEERING]
+- Member 2: [PRATHYUHA P] - [T K M COLLEGE OF ENGINEERING ]
 
 ### Hosted Project Link
 [mention your project hosted link here]

@@ -102,8 +102,7 @@ club login page)
 
 **Application Workflow:**
 
-![<img width="541" height="314" alt="image" src="https://github.com/user-attachments/assets/f48db048-2968-4e7d-930c-650a54ff9176" />
-](docs/workflow.png)
+![](docs/workflow.png)
 *Add caption explaining your workflow*
 
 ---

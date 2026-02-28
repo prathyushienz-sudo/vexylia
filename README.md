@@ -132,14 +132,6 @@ Student clicks event → views full details → registers.
 
 ---
 
-### For Hardware:
-
-
-#### Build Photos
-
-
----
-
 ## Additional Documentation
 
 ### For Web Projects with Backend:
@@ -260,16 +252,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 2. Connect resistors in series with LEDs
 3. Connect LED cathodes to GND
 4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
+![Step 3
 
 ### For Scripts/CLI Tools:
 
@@ -304,66 +287,6 @@ python script.py -v input.txt
 # Example 3: Specify output file
 python script.py -o output.txt input.txt
 
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
 
 ---
 
@@ -409,8 +332,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
+- [AMNA HUDHA CP]: [Specific contributions - e.g., Frontend development, API integration, etc.]
+- [PRATHYUSHA P]: [Specific contributions - e.g., Backend development, Database design, etc.]
 - [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
 
 ---

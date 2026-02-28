@@ -332,9 +332,9 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [AMNA HUDHA CP]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [PRATHYUSHA P]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [AMNA HUDHA CP]: [Frontend development, UI design, event display logic, documentation]
+- [PRATHYUSHA P]: [Backend logic, database integration, authentication implementation]
+
 
 ---
 

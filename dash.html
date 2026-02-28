@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Notifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 🔔 Notification Bell -->
+    <div id="notifyBell" onclick="toggleNotificationBox()">
+        🔔 <span id="notifyCount">0</span>
+    </div>
+
+    <!-- 📦 Notification Popup -->
+    <div id="notifyPopup">
+        <h3>🔔 Matching Events</h3>
+        <div id="notifyList"></div>
+    </div>
+
+    <h1>📢 College Event Notifier</h1>
+    <h3 id="welcome"></h3>
+
+    <!-- ⚙️ Preference Toggle Button -->
+    <div id="prefToggle" onclick="togglePrefBox()">⚙️</div>
+
+    <!-- 🎯 Preference Side Panel -->
+    <div id="prefPanel">
+
+        <h3>🎯 Your Interests</h3>
+
+        <label><input type="checkbox" value="technical" class="pref"> Technical</label><br>
+        <label><input type="checkbox" value="cultural" class="pref"> Cultural</label><br>
+        <label><input type="checkbox" value="sports" class="pref"> Sports</label><br><br>
+
+        <button onclick="savePreferences()">💾 Save</button>
+        <button onclick="togglePrefBox()">❌ Close</button>
+
+    </div>
+
+    <!-- ===== CLUB SECTION ===== -->
+    <div class="form" id="clubSection">
+
+        <input type="text" id="eventName" placeholder="Enter Event Name">
+        <input type="date" id="eventDate">
+
+        <select id="category">
+            <option value="technical">Technical</option>
+            <option value="cultural">Cultural</option>
+            <option value="sports">Sports</option>
+        </select>
+
+        <textarea id="description" placeholder="Enter Event Description"></textarea>
+        <input type="file" id="poster" accept="image/*">
+
+        <button id="addBtn" onclick="addEvent()">Add Event</button>
+
+    </div>
+
+    <!-- ===== STUDENT SECTION ===== -->
+    <div id="studentSection">
+
+        <h2>Search Events</h2>
+
+        <input type="text" id="searchName" placeholder="Search by Event Name">
+        <input type="date" id="searchDate">
+
+        <button onclick="searchEvents()">Search</button>
+        <button onclick="displayEvents()">Show All</button>
+
+        <br><br>
+
+    </div>
+
+    <!-- ===== EVENT LIST ===== -->
+    <div id="eventList"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

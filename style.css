@@ -1,0 +1,325 @@
+/* ===== GLOBAL RESET ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617, #1e3a8a);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* ===== SOFT BLUE GLOW ===== */
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    filter: blur(120px);
+    z-index: 0;
+}
+
+body::before {
+    background: #2563eb;
+    top: -80px;
+    left: -80px;
+}
+
+body::after {
+    background: #38bdf8;
+    bottom: -80px;
+    right: -80px;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* glass login card */
+.login-card {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(25px);
+    background: rgba(15, 23, 42, 0.75);
+    padding: 45px;
+    border-radius: 24px;
+    width: 340px;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+    color: white;
+    animation: floatIn 0.7s ease;
+}
+
+/* logo */
+.logo {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #60a5fa;
+}
+
+/* subtitle */
+.subtitle {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+/* inputs */
+.input {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    border-radius: 14px;
+    border: none;
+    background: rgba(30, 41, 59, 0.9);
+    color: white;
+    font-size: 14px;
+}
+
+/* login button */
+.login-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.login-btn:hover {
+    transform: scale(1.07);
+    box-shadow: 0 10px 30px rgba(56,189,248,0.5);
+}
+
+/* ===== MAIN PAGE TITLE ===== */
+h1 {
+    text-align: center;
+    color: #e2e8f0;
+    margin-top: 20px;
+}
+
+/* ===== CLUB FORM ===== */
+.form {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(20px);
+    background: rgba(15, 23, 42, 0.75);
+    margin: 25px auto;
+    padding: 22px;
+    border-radius: 20px;
+    width: 92%;
+    max-width: 600px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    color: white;
+}
+
+/* ===== EVENT GRID ===== */
+#eventList {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 25px;
+}
+
+/* ===== EVENT CARD ===== */
+.event-card {
+    background: #0f172a;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 18px 35px rgba(0,0,0,0.6);
+    transition: 0.35s;
+    color: white;
+}
+
+.event-card:hover {
+    transform: translateY(-12px) scale(1.03);
+}
+
+/* image */
+.event-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* content */
+.event-content {
+    padding: 16px;
+}
+
+/* date */
+.event-date {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+/* buttons */
+.event-content button {
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+/* live badge */
+.live-badge {
+    background: #2563eb;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h2 {
+    color: white;
+}
+/* preference title */
+.pref-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* checkbox container */
+.pref-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* each option */
+.pref-item {
+    color: white;
+    font-weight: 500;
+}
+
+/* save button */
+.pref-btn {
+    display: block;
+    margin: auto;
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    border: none;
+    padding: 10px 18px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* ⚙️ floating toggle button */
+#prefToggle {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    color: white;
+    font-size: 22px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+/* 🎯 side panel */
+#prefPanel {
+    position: fixed;
+    top: 130px;
+    right: -260px; /* hidden initially */
+    width: 240px;
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+    border-radius: 16px 0 0 16px;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.4);
+    transition: 0.4s;
+    z-index: 998;
+}
+
+#prefPanel button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    color: white;
+    cursor: pointer;
+}
+#notifyBell {
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    font-size: 22px;
+    color: white;
+    z-index: 999;
+}
+
+#notifyCount {
+    background: red;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 4px;
+    color: white; 
+ 
+}
+/* notification popup */
+#notifyPopup {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 260px;
+    max-height: 300px;
+    overflow-y: auto;
+    background: #0f172a;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    display: none;
+    z-index: 1000;
+}
+
+#notifyPopup h3 {
+    margin-top: 0;
+}
+
+.notify-item {
+    background: #1e293b;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+

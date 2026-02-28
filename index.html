@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Event Notifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-body">
+
+    <div class="login-card">
+
+        <h1 class="logo">📢 EventHub</h1>
+        <p class="subtitle">Discover events you love</p>
+
+        <!-- Role Selection -->
+        <select id="role" class="input">
+            <option value="student">Student</option>
+            <option value="club">Club</option>
+        </select>
+
+        <!-- Username / Email -->
+        <input type="text" id="username" class="input"
+               placeholder="Enter Email (Student) or Club Name" required>
+
+        <!-- Login Button -->
+        <button onclick="login()" class="login-btn">Login</button>
+
+    </div>
+
+<script>
+function login() {
+
+    let role = document.getElementById("role").value;
+    let name = document.getElementById("username").value.trim();
+
+    // Club accounts
+    let clubs = {
+        "TinkerHub": "1234",
+        "NSS": "5678",
+        "IEDC": "1111",
+        "IEEE": "2222"
+    };
+
+    // ===== CLUB LOGIN =====
+    if (role === "club") {
+
+        let password = prompt("Enter Club Password:");
+
+        if (clubs[name] && clubs[name] === password) {
+            localStorage.setItem("role", role);
+            localStorage.setItem("username", name);
+            window.location.href = "dash.html";
+        } else {
+            alert("Invalid Club Name or Password");
+        }
+
+    }
+
+    // ===== STUDENT LOGIN =====
+    else {
+
+        if (name === "") {
+            alert("Please enter your email");
+            return;
+        }
+
+        // Only TKM students allowed
+        if (!name.endsWith("@tkmce.ac.in")) {
+            alert("Only TKM students can login using @tkmce.ac.in email");
+            return;
+        }
+
+        localStorage.setItem("role", role);
+        localStorage.setItem("username", name);
+        window.location.href = "dash.html";
+    }
+}
+</script>
+
+</body>
+</html>

@@ -19,10 +19,16 @@
 [CampusConnect is a smart college events notification platform that helps students discover, track, and register for campus events easily. Clubs can post events with posters and descriptions, while students get personalized feeds, reminders, and urgency alerts.]
 
 ### The Problem statement
-[What problem are you solving?]
+[In colleges, students often miss events because information is scattered across WhatsApp groups, posters, and social media. There is no centralized platform where all clubs can post events and students can track them efficiently.]
 
 ### The Solution
-[How are you solving it?]
+[CampusConnect provides a centralized web platform where:
+
+Clubs can log in and post events with posters and descriptions.
+
+Students can log in to view, filter, and register for events.
+
+Smart reminders and urgency indicators help students never miss important events.]
 
 ---
 

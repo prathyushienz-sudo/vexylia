@@ -96,8 +96,7 @@ cd smart-event-notifier]
 
 **System Architecture:**
 
-![<img width="721" height="356" alt="image" src="https://github.com/user-attachments/assets/2de087a8-cc7a-41b9-a57e-2a13658872dd" />
-](docs/architecture.png)
+![](docs/architecture.png)
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**

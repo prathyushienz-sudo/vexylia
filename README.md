@@ -97,13 +97,38 @@ club login page)
 
 **System Architecture:**
 
-![](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+Architecture Explanation
+
+Frontend built using HTML, CSS, JavaScript
+
+Backend (if enabled) handles authentication & event storage
+
+MongoDB Atlas stores event data
+
+Hosted on Render
+
+Data Flow
+
+User → Frontend UI → Backend API → Database
+Database → Backend → Frontend Display
 
 **Application Workflow:**
 
-![](docs/workflow.png)
-*Add caption explaining your workflow*
+![<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9b237165-633c-4247-ba83-02e63ff5817b" />
+]
+User selects role (Student / Club).
+
+Login or Register.
+
+Club uploads event details.
+
+Event stored in database.
+
+Students view events.
+
+Urgency logic highlights events near deadline.
+
+Student clicks event → views full details → registers.
 
 ---
 

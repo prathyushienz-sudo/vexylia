@@ -80,10 +80,12 @@ Students can click on an event to view full poster, detailed description, and re
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![<img width="1778" height="855" alt="image" src="https://github.com/user-attachments/assets/5e73f5c4-fd80-4299-a153-761484354ad4" />
+](login page)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![<img width="1866" height="905" alt="image" src="https://github.com/user-attachments/assets/404651ac-e7b7-4be5-b9ac-bffebb0a597d" />
+](Student login interface)
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)

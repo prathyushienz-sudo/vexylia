@@ -89,7 +89,8 @@ cd smart-event-notifier]
 ](Student login interface)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![<img width="1871" height="881" alt="image" src="https://github.com/user-attachments/assets/d3319630-0285-4102-861f-0240ce14aa3d" />](
+Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 #### Diagrams

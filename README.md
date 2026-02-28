@@ -38,7 +38,7 @@ Smart reminders and urgency indicators help students never miss important events
 
 **For Software:**
 - Languages used: [JavaScript,HTML,CSS]
-- Frameworks used: []
+- Frameworks used: [None (Built using Vanilla JS for lightweight performance)]
 - Libraries used: []
 - Tools used: [VS Code,Git & GitHub ,Vercel (Hosting) ,MongoDB Atlas]
 
@@ -64,12 +64,13 @@ Students can click on an event to view full poster, detailed description, and re
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[git clone https://github.com/your-repo-name.git
+cd smart-event-notifier]
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[node server.js]
 ```
 
 
@@ -95,12 +96,14 @@ Students can click on an event to view full poster, detailed description, and re
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
+![<img width="721" height="356" alt="image" src="https://github.com/user-attachments/assets/2de087a8-cc7a-41b9-a57e-2a13658872dd" />
+](docs/architecture.png)
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
+![<img width="541" height="314" alt="image" src="https://github.com/user-attachments/assets/f48db048-2968-4e7d-930c-650a54ff9176" />
+](docs/workflow.png)
 *Add caption explaining your workflow*
 
 ---

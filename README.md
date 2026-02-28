@@ -83,15 +83,15 @@ cd smart-event-notifier]
 
 ![<img width="1778" height="855" alt="image" src="https://github.com/user-attachments/assets/5e73f5c4-fd80-4299-a153-761484354ad4" />
 ](login page)
-*Add caption explaining what this shows*
+*This is the login page.It was designed like both student and clubs can use.Clubs can post their events by entering the website by using their club names and password we give.Student can login using college id and view posters and know about the events.*
 
 ![<img width="1866" height="905" alt="image" src="https://github.com/user-attachments/assets/404651ac-e7b7-4be5-b9ac-bffebb0a597d" />
 ](Student login interface)
-*Add caption explaining what this shows*
+*In student login page it was designed like that the events are sorted based on how may days left.the event happening today is marked as live session.they can also give their preference ,so they will get notified whjen any events based on their preference is coming*
 
 ![<img width="1871" height="881" alt="image" src="https://github.com/user-attachments/assets/d3319630-0285-4102-861f-0240ce14aa3d" />](
-Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+club login page)
+*in club login page they can login with respective password then the page goes to club page were they can add events notify live options are there based on the preference in which type of event is occuring , home view like instagram*
 
 #### Diagrams
 

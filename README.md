@@ -37,10 +37,10 @@ Smart reminders and urgency indicators help students never miss important events
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [JavaScript,HTML,CSS]
+- Frameworks used: []
+- Libraries used: []
+- Tools used: [VS Code,Git & GitHub ,Vercel (Hosting) ,MongoDB Atlas]
 
 **For Hardware:**
 - Main components: [List main components]

@@ -42,20 +42,19 @@ Smart reminders and urgency indicators help students never miss important events
 - Libraries used: []
 - Tools used: [VS Code,Git & GitHub ,Vercel (Hosting) ,MongoDB Atlas]
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
 
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [Club Login & Event Posting
+Clubs can securely log in and upload event posters, descriptions, date, and registration links.]
+- Feature 2: [Student Login & Personalized Feed
+Students can log in and see events based on their interests.]
+- Feature 3: [Smart Reminders & Urgency Indicator
+Events happening today are highlighted. Countdown timer shows days left.]
+- Feature 4: [Full Poster View & Registration
+Students can click on an event to view full poster, detailed description, and register instantly.]
 
 ---
 

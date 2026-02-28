@@ -13,7 +13,7 @@
 - Member 2: [PRATHYUHA P] - [T K M COLLEGE OF ENGINEERING ]
 
 ### Hosted Project Link
-[https://vexylia.onrender.com/dash.html]
+[https://vexylia.onrender.com/]
 
 ### Project Description
 [CampusConnect is a smart college events notification platform that helps students discover, track, and register for campus events easily. Clubs can post events with posters and descriptions, while students get personalized feeds, reminders, and urgency alerts.]
